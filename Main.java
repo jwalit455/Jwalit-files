@@ -1,7 +1,7 @@
 
 /**
  *
- * @author Jwalit Modi
+ * @author Jwalit Modi.
  */
 public class Main {
 
