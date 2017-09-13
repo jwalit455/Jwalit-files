@@ -1,0 +1,32 @@
+Jwalit Modi and Nicholas Koceja
+
+The python script is meant to be run on a computer that is connected to an XBee radio running the Zigbee Protocol in API mode.  (meaning is MUST be XBZ_2x24 or greater.)
+PySerial must be installed, as well as the xbee module
+
+The Racer folder is an Eclipse project folder.  Just compile and run as is (You only have to change the IP in three places).  The Android SDK MUST be installed as well as Android Framework 2.3.3.  Also, the Android plugin for Eclipse must be installed.
+
+The ButtonCar_ard folder is an arduino 'sketch' folder.  It requires the Ardino 'IDE' (downloaded from the Arduino.cc)  It can be uploaded as-is to a new Arduino Uno, and it will work as designed
+
+Materials needed:
+	2 XBee Radios.
+	Breakout board.
+	1 Arduino Uno
+	wires
+	an XBee-to-USB board (Comes with most XBee packages)
+	USB a to b cable
+	USB A-to-B Mini Cable
+	Android device with at least version 2.3.3
+	At least 4 LEDs
+
+First, follow the instructions in the WirelessSensorNetworks book for the button only, but do not use the button portion.  Next, connect leds to Digital pins 2, 3, 4, and 5 on the Arduino, the longer end connected to the arduino, and the shorter end connected to ground.
+
+Third, upload the arduino code to the Arduino Uno.  (Make sure to disconnect the wire from pin 0 first, then reconnect it after it's done uploading.
+
+Fourth, start the Python program on the computer connected to the XBee Radio.  Make sure to change the "HOST" variable to the IP address on said server.
+
+Fifth, change the Android app code in three spots to the same HOST: JoinRace.java; PlayRace.java; RacerActivity.java.  Then, compile and load onto an Android device (or a DIFFERENT computer's emulator.)
+
+Last, run the application, create a race, join it, and watch the LEDs light as you spin the app! =D
+
+If you need any help, please feel free to contact Nicholas Koceja.
+

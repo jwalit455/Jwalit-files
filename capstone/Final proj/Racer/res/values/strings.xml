@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RacerActivity!</string>
+    <string name="app_name">Racer</string>
+    <string name="selectRaceStr">Select a race:</string>
+    <string name="createRaceBtnStr">Create Race</string>
+    <string name="orientStr">Choose the default orientation</string>
+    <string name="portLbl">Portrait</string>
+    <string name="landLbl">Landscape</string>
+    <string name="raceNameStr">"Race Name: "</string>
+    <string name="numRacersStr">"Max number of racers: "</string>
+    <string name="listPlayers">1\\n2\\n3\\n4</string>
+    <string name="newNameCarStr">"New name of car: "</string>
+    <string name="watchBtnStr">Watch</string>
+    <string name="joinBtnStr">Join</string>
+    <string name="statsBtnStr">Stats</string>
+    <string name="settingsBtnStr">Settings</string>
+    <string name="startRaceBtnStr">Start Race</string>
+    <string name="joinedRacersStr">Players joined:</string>
+    <string name="carSelectStr">"Select a car: "</string>
+    <string-array name="choices">
+        <item>1 Racer</item>
+        <item>2 Racers</item>
+        <item>3 Racers</item>
+        <item>4 Racers</item>
+    </string-array>
+        <string name="confirm">Confirm</string>
+
+</resources>
