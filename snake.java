@@ -1,6 +1,6 @@
 /*
 Jwalit Modi
-This is a Snake game!
+This is a Snake game
 */
 
 import java.awt.*;
